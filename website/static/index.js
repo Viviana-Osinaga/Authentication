@@ -1,6 +1,3 @@
-// element = document.getElementById('rem')
-// element.addEventListener("click", deleteNote(noteId));
-
 function deleteNote(noteId) {
     fetch("/delete-note", {
         method: 'POST',
